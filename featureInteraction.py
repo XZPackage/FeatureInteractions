@@ -186,7 +186,7 @@ class HDMR:
 class H_STATISTIC:
     def __init__(self, model, X):
         '''
-            Find the feature interactions based on H_Statistics
+            Find 2- and 3-way feature interactions based on H_Statistics
 
             :param model: the interpreted model.
             :param X: the dataset used to interpret model.
@@ -272,7 +272,7 @@ class H_STATISTIC:
 class COND_FEAIMP:
     def __init__(self, model, X):
         '''
-            Find the feature interactions based on H_Statistics
+            Find 2-way feature interactions based on H_Statistics
 
             :param model: the interpreted model.
             :param X: the dataset used to interpret model.
@@ -375,7 +375,7 @@ class MODEL_ERROR:
 class ANOVA:
     def __init__(self, model, X):
         '''
-                Find the feature interactions based on ANOVA
+                Find 2-way feature interactions based on ANOVA
 
                 :param model: the interpreted model.
                 :param X: the dataset used to interpret model.
